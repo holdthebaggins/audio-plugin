@@ -1,0 +1,20 @@
+# CMake build directory
+build/
+
+# JUCE framework (will be added as git submodule — don't track its contents)
+JUCE/.gitignore
+
+# Compiled outputs
+*.vst3
+*.component
+*.audiounit
+*.clap
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files (optional — uncomment if needed)
+# .idea/
+# *.xcodeproj/
+# *.xcworkspace/
